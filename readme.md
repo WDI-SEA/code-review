@@ -13,7 +13,7 @@ While we will build a lot of code throughout WDI, it's also important that we kn
   * A short summary of the project's purpose.
   * A summary of project's organization, in terms of directories and files
   * For each major feature of the project, explain how the feature is implemented in terms of processes and architecture
-  * At least 2 attributes of the project that you found interesting or useful
+  * At least 2 attributes of the project that you found successful or useful
   * At least 2 attributes of the project that could use improvement
 5. Submit each writeup via pull request. A template is provided for you to get started. You'll also want to reference your partner in the PR, so they can see the notes.
 
