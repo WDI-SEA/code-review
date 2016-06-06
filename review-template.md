@@ -1,12 +1,14 @@
-# Code Review for <Insert Name Here>
+# Code Review for _Insert Name Here_
 
 ## Project Repo
 
-<Put the link to your partner's project here>
+_Put the link to your partner's project here_
 
 ## Review
 
 #### Project Purpose
+
+_List the purpose and components of the project here_
 
 #### Project Organization
 
@@ -19,12 +21,12 @@
 * Feature 3
   * Explanation on how it's implemented
 
-#### Interesting Attributes (Code, Organization)
+#### Areas of Success (Code, Organization)
 
 * Attribute 1
-  * Explanation on why you found it interesting or elegant
+  * Explanation on why you found it successful or elegant
 * Attribute 2
-  * Explanation on why you found it interesting or elegant
+  * Explanation on why you found it successful or elegant
 
 #### Areas for Improvement (Code, Organization)
 
@@ -34,3 +36,5 @@
   * Explanation on how it could be improved
 
 ## Additional Notes
+
+_Place any additional notes here_
