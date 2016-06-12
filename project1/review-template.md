@@ -1,40 +1,40 @@
-# Code Review for _Insert Name Here_
+# Code Review for Chris Madison
 
 ## Project Repo
 
-_Put the link to your partner's project here_
+https://github.com/CMadison/Connect4
 
 ## Review
 
 #### Project Purpose
 
-_List the purpose and components of the project here_
+This is a 2-player game that has players alternate turns dropping a colored disc into a grid system, with the goal being to get 4 of your colored pieces in a row.
 
 #### Project Organization
 
 #### Features
 
 * Feature 1
-  * Explanation on how it's implemented
+  * Clicking the top row of the grid lets you drop a piece into that column.
 * Feature 2
-  * Explanation on how it's implemented
+  * Play automatically switches between colors
 * Feature 3
-  * Explanation on how it's implemented
+  * The game alerts a win when one player has 4 pieces in a row.
 
 #### Areas of Success (Code, Organization)
 
-* Attribute 1
-  * Explanation on why you found it successful or elegant
-* Attribute 2
-  * Explanation on why you found it successful or elegant
+* Organization of Code
+  * Most functions were well-commented, which helped in understanding the purpose of said function
+* CSS
+  * Clean and simple game, which I love.
 
 #### Areas for Improvement (Code, Organization)
 
-* Attribute 1
-  * Explanation on how it could be improved
-* Attribute 2
-  * Explanation on how it could be improved
+* Win Condition Bug
+  * I know you're still working on diagonal win condition, but there is a bug in horizontal win condition - horizontal connect 4's that touch the right wall aren't counted, and the game continues.
+* Commenting
+  * Most functions were well commented, with the exception of the code in app.js, lns 43-74, which was harder to parse without the clear comments you left elsewhere (you spoiled me, Chris!).
 
 ## Additional Notes
 
-_Place any additional notes here_
+Good stuff, Maynard.  Get those win conditions fixed, and you're all set with a clean-looking portfolio piece.  :-)
