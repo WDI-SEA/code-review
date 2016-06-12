@@ -26,13 +26,13 @@ Components:
   * HTML
     * Created with 50 div elements in html, each has a class of odd or even
     * Chutes and ladders pictures are added as img src in select div elements
-    * <p> tags with IDs number 1-50 are added to each div element as well as a placeholder for the players to render as they move along the board
+    * p tags with IDs number 1-50 are added to each div element as well as a placeholder for the players to render as they move along the board
   * JS
     * Board array with properties:
       * "id" - numeric - used to comapre with currentSpacesMovedPlayer (sum of moves count) and determine where the player needs to be
-      * "position" - string - reference to the HTML divs, used to place player in the correct postition corresponding to the div <p> id
+      * "position" - string - reference to the HTML divs, used to place player in the correct postition corresponding to the div p id
       * "action" - numeric - used to add additional moves forward or backward
-    * As the player moves, their images and a new <p> elements are appended to the corresponding html "position"
+    * As the player moves, their images and a new p elements are appended to the corresponding html "position"
 * Implementation of Turns and Dice
   * Implied button order of operations: Start Game > Spin > Move Player, however, any button can be pushed at any time
   * Spin - Random generates a number between 1 - 10 for player move, automatically alternates between players after every click using modulus to 
@@ -56,7 +56,7 @@ Components:
   * Something that prevents the user from clicking the spin button, move, button, or any other button before the game is started, and again before they have actually moved. 
   Currently, a player can click spin many times and the spins are stored to count toward the move. Maybe if they had been in functions that were called sequentially they could have a flow of order... or posibly use remove listeners when buttons should not be pushed..?
 * Use of .append
-  * I was running into some of these issues too, but it appears that a new <p> tag is added to the exisitng <p> everytime the player is moved. It seems this also prevents 2 players form being in the same square.
+  * I was running into some of these issues too, but it appears that a new p tag is added to the exisitng p everytime the player is moved. It seems this also prevents 2 players form being in the same square.
 * Separation between player move and board action - Org
   * Currently the player dice move is added to the board action so they happen simultaneously, it would be nice to add a deplay so the user knows what action is happening separate from their roll.
 
