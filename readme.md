@@ -18,3 +18,9 @@ While we will build a lot of code throughout WDI, it's also important that we kn
 5. Submit each writeup via pull request. A template is provided for you to get started. You'll also want to reference your partner in the PR, so they can see the notes.
 
 *Note:* For each attribute of the project, think in terms of user experience, styling, layout, and code readability. If you don't know what a section of code does, that may warrant a conversation about what could be improved. Remember KISS and DRY principles as well.
+
+---
+
+## Licensing
+1. All content is licensed under a CC-BY-NC-SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
