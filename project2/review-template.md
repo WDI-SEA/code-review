@@ -1,40 +1,31 @@
-# Code Review for _Insert Name Here_
+# Code Review for _Ryan Rotz_
 
 ## Project Repo
 
-_Put the link to your partner's project here_
+_https://colordat.herokuapp.com/_
 
 ## Review
 
 #### Project Purpose
 
-_List the purpose and components of the project here_
+_Colordat allows you to search Amazon for home decor products by color and save products to a board to access later._
 
 #### Project Organization
 
 #### Features
 
-* Feature 1
-  * Explanation on how it's implemented
-* Feature 2
-  * Explanation on how it's implemented
-* Feature 3
-  * Explanation on how it's implemented
+* Features
+  * Ryan's app will allow a user to sign in and save the products of their choice'
+  * this is implemented with models tables and validations
+  * His app also uses the Amazon api. This is great. He also got the image and price to show up on the boards show page. He achieved this with migrations and models.  
 
 #### Areas of Success (Code, Organization)
 
-* Attribute 1
-  * Explanation on why you found it successful or elegant
-* Attribute 2
-  * Explanation on why you found it successful or elegant
-
+* His whole project is a success! His code seems very well organized and the front end looks really nice and slick. 
 #### Areas for Improvement (Code, Organization)
 
-* Attribute 1
-  * Explanation on how it could be improved
-* Attribute 2
-  * Explanation on how it could be improved
+* The search results where sometimes questionable. For example some of the items where not even close to the color typed in.
 
 ## Additional Notes
 
-_Place any additional notes here_
+_Ryan's project turned out great. It's obvious he spend a lot of time and effort to create this beautiful app._
