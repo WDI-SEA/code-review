@@ -1,4 +1,4 @@
-# Code Review for _Insert Name Here_
+# Code Review for Kemal
 
 ## Project Repo
 
@@ -8,32 +8,23 @@ _Put the link to your partner's project here_
 
 #### Project Purpose
 
-_List the purpose and components of the project here_
+Local musical artists aggregated
 
 #### Project Organization
 
 #### Features
 
-* Feature 1
-  * Explanation on how it's implemented
-* Feature 2
-  * Explanation on how it's implemented
-* Feature 3
-  * Explanation on how it's implemented
+Links to each local artist
+- implemented by writing manual listings into a database with attributes
+- used APIs
 
 #### Areas of Success (Code, Organization)
 
-* Attribute 1
-  * Explanation on why you found it successful or elegant
-* Attribute 2
-  * Explanation on why you found it successful or elegant
+Success at using APIs and pulling data from a database. Also, authentication allows users to sign up and login. 
 
 #### Areas for Improvement (Code, Organization)
 
-* Attribute 1
-  * Explanation on how it could be improved
-* Attribute 2
-  * Explanation on how it could be improved
+Improvement could be made by allowing data to be input into the database.
 
 ## Additional Notes
 
