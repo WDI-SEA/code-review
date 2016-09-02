@@ -22,7 +22,7 @@ Components:
 
 #### Features
 
-1. Implementation of Gameboard Design and Movement
+* Implementation of Gameboard Design and Movement
   * HTML
     * Created with 50 div elements in html, each has a class of odd or even
     * Chutes and ladders pictures are added as img src in select div elements
@@ -32,18 +32,17 @@ Components:
       * "id" - numeric - used to comapre with currentSpacesMovedPlayer (sum of moves count) and determine where the player needs to be
       * "position" - string - reference to the HTML divs, used to place player in the correct postition corresponding to the div p id
       * "action" - numeric - used to add additional moves forward or backward
-    * As the player moves, their images and a new p element are appended to the corresponding html "position"
-2. Implementation of Turns and Dice
+    * As the player moves, their images and a new p elements are appended to the corresponding html "position"
+* Implementation of Turns and Dice
   * Implied button order of operations: Start Game > Spin > Move Player, however, any button can be pushed at any time
   * Spin - Random generates a number between 1 - 10 for player move, automatically alternates between players after every click using modulus to 
   * Move Player - Takes spin number position and adds any action that position has, then places player on board depending on which player is identified by spin button. If an action is taken, the player is notified with a message at the top of the board. 
-3. Implementation of chooseWinner
+  * 
+* Implementation of chooseWinner
   * After every turn, this function compares currentSpacesMovedPlayer1 & 2 with a local variable, 50. If the player has moved beyond 50, they win!
 
 #### Areas of Success (Code, Organization)
 
-* Formatting
-  * There were some indents that were indented too far i think, but in general the code was easy to read because of proper spacing and functions/variables that were named appropriately.
 * Actions - Code/Org
   * Actions were successfully stores in the game array to reference what extra actions should be taken if the player lands in that space
 * currentSpacesMovedPlayer - Org
